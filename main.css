@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Code;
+    src: url('SourceCodePro.ttf');
+}
+
+:root {
+    /* Colours */
+    --background: #000;
+    --box-background: #111;
+    --box-border: #e6e6e6;
+    --text: #fff;
+    --greyed-text: #888;
+    --accent: #daf;
+}
+
+html {
+    background-color: var(--background);
+}
+
+body {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    text-align: center;
+
+    color: var(--text);
+}
+
+body>* {
+    font-family: Code;
+}
+
+input {
+    width: 400px;
+    font-size: 20pt;
+}
+
+input:focus {
+    border-color: var(--accent);
+    outline: 0;
+}
+
+button {
+    font-size: 16pt;
+}
+
+button:hover {
+    background-color: var(--box-border);
+    color: var(--box-background);
+}
+
+input,
+button {
+    background-color: var(--box-background);
+    border-radius: 10px;
+    border-color: var(--box-border);
+    border-style: solid;
+
+    color: inherit;
+}
+
+pre {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+
+hr {
+    color: var(--box-border);
+    margin: 15px;
+    border-style: solid;
+}
+
+h1 {
+    font-size: 36pt;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+small {
+    color: var(--greyed-text);
+}
+
+a {
+    font-size: 16pt;
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text);
+}
+
+#More {
+    display: none;
+}
+
+#Float {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin: 5px;
+}
