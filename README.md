@@ -8,5 +8,5 @@ Install wasm-pack using cargo
 Navigate to the [wasm](/wasm) folder  
 `cd wasm`
 
-Build web assembly file  
+Build WebAssembly file  
 `wasm-pack build --target web`
