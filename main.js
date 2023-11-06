@@ -30,6 +30,8 @@ function display() {
 }
 
 init().then(() => {
+    document.getElementById("Out").textContent = " ";
+
     // Add event listeners on 2 interaction points
     document.getElementById("Box").addEventListener("input", () => {
         i = 1;
