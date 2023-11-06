@@ -2,6 +2,7 @@
 name = "regex_dictionary"
 version = "0.1.0"
 edition = "2021"
+description = "A website that lets you search the dictionary using regex syntax"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
